@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F9EEFF;
+    background-image: url(./img/background-pattern-desktop.svg);
+    background-size: 1700px auto ;
+    background-repeat: no-repeat;
+   
+}
+
+.container{
+    background-color: white;
+    margin: 15rem auto;
+    width: 44rem;
+    height: auto;
+    padding: 1.9rem;
+    border-radius:1.8rem ;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.start{
+    display: flex;
+    margin-top: 30px;
+}
+
+.content{
+    margin-top: 40px;
+}
+
+h1{
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h3{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.hidden{
+    display: none;
+}
+
+hr{
+    margin-top: 50px;
+    color: #EBE7FF;
+    margin-bottom: 40px;
+}
+
+.click{
+    cursor: pointer;
+    float: right;
+}
+
+.text-content{
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-size: 18px;
+    color: #BFB6C0;
+    margin-top: 20px;
+}
+.click_minus{
+    display: none;
+}
+.footer_text{
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-size: 18px;
+    color: #444444;
+}
+@media only screen and (max-width: 768px) {
+    .container{
+        width: 90%;
+        margin: 5rem auto;
+    }
+}

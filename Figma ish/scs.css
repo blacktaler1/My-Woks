@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    background-color: #f5f7fa;}
+
+.sarlavha{
+    font-family: Inter;
+    text-align: center;
+    font-style: normal;
+}
+.text  {
+    
+    color: #4D4D4D;
+    font-size: 36px;
+}
+.text2{
+     color: #717171;
+     padding-top: 8px;
+}
+.rasm{
+    display: flex;
+    height: 98px;
+    justify-content: space-between;
+    align-items: center;
+    align-self: stretch; 
+    padding: 0px 144px; 
+    margin-top:20px ;
+}
+.text3{
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+   color: #4D4D4D;
+    text-align: center;
+
+}
+.text4{
+    color: #717171;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 8px;
+}
+.icon{
+    display: flex;
+
+
+    padding: 26px 150px;
+    padding-left:150px ;
+    justify-content: space-between;
+    align-items: center; 
+
+}
+.text5{
+    display: flex;
+    color: #4D4D4D;
+    font-size: 28px; 
+    padding: 0px 150px;
+    padding-left:150px ;
+    justify-content: space-between;
+    align-items: center; 
+}
+.text6{
+    display: flex;
+    color:#717171;
+    font-family: Inter;
+    font-size: 14px;
+    justify-content: space-between;
+    align-items: center; 
+}
+.soz{
+    width: 500px;
+    justify-content: space-between;
+    align-items: center; 
+    padding: 0px 150px;
+    
+}

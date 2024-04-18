@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Windows 10 Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator-screen">
+                <input type="text" class="calculator-screen-one" disabled>
+                <input type="text" class="calculator-screen-two" readonly>
+            </div>
+            <div class="calculator-m-buttons">
+                <button class="calculator-m-button" disabled>MC</button>
+                <button class="calculator-m-button" disabled>MR</button>
+                <button class="calculator-m-button" >M+</button>
+                <button class="calculator-m-button" >M-</button>
+                <button class="calculator-m-button" >MS</button>
+                <button class="calculator-m-button" disabled>M</button>
+            </div>
+            <div class="calculator-buttons">
+                <button class="calculator-button" data-opertor="percent">%</button>
+                <button class="calculator-button" data-option="clearEntry">CE</button>
+                <button class="calculator-button" data-option="clear">C</button>
+                <button class="calculator-button calculator-backspace" data-option="undo"></button>
+                <button class="calculator-button" data-operator="fraction">&sup1;/ x</button>
+                <button class="calculator-button"data-operator="pow">x&sup2;</button>
+                <button class="calculator-button" data-operator="sqrt">&radic;</button>
+                <button class="calculator-button" data-operator="divide">&divide;</button>
+
+                <button class="calculator-button calculator-number" data-number>7</button>
+                <button class="calculator-button calculator-number" data-number>8</button>
+                <button class="calculator-button calculator-number" data-number>9</button>
+                <button class="calculator-button" data-operator="multiply">&times;</button>
+
+                <button class="calculator-button calculator-number" data-number>4</button>
+                <button class="calculator-button calculator-number" data-number>5</button>
+                <button class="calculator-button calculator-number" data-number>6</button>
+                <button class="calculator-button" data-operator="minus">&minus;</button>
+
+                <button class="calculator-button calculator-number" data-number>1</button>
+                <button class="calculator-button calculator-number" data-number>2</button>
+                <button class="calculator-button calculator-number" data-number>3</button>
+                <button class="calculator-button" data-operator="plus">+</button>
+
+                <button class="calculator-button calculator-number" data-option="reverse">+/-</button>
+                <button class="calculator-button calculator-number" data-number>0</button>
+                <button class="calculator-button calculator-number" data-option="dot">.</button>
+                <button class="calculator-equals" data-operator="equal">=</button>
+                
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

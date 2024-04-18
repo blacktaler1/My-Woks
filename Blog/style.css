@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua:wght@300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: #F0F0F0;
+}
+body{
+    background-color: #141414;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h1,p{
+    color: #F0F0F0;
+    
+    font-family: "Inknut Antiqua", serif;
+    font-style: normal;
+}
+.container{
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 500px ;
+    width: 500px;
+    height: 700px;
+    background-color: #1F1F1F;   
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.box2{
+    display: flex;
+    flex-direction: column;
+}
+.knopka{
+    padding: 20px 150px;
+    margin-bottom: 5px;
+    background-color: #333333;
+    color: #FFFFFF;
+    border-color:#333333 ;
+    text-align: center;
+    font-size: 15px;
+}
+button{
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #007cf8;
+    border-color: #007cf8;
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+      margin: 25px; /* Adjust margin on smaller screens */
+    }
+    .content-area {
+      margin: 0 20px; /* Adjust margin on smaller screens */
+    }
+    .box1 {
+      min-width: 100%; /* Allow full width on small screens */
+    }
+    .knopka {
+      padding: 10px 20px; /* Adjust padding on smaller screens */
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .container {
+      margin: 10px; /* Further adjust margin on very small screens */
+    }
+    .content-area {
+      margin: 0 10px; /* Further adjust margin on very small screens */
+    }
+    .box1 {
+      margin-bottom: 5px; /* Reduce margin on very small screens */
+    }
+    .knopka {
+      padding: 8px 15px; /* Further adjust padding on very small screens */
+    }
+  }

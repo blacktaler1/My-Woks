@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Calistoga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jomolhari&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Junge&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Junge&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    background: #E91E63;
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 16px;
+    border-radius: 2px;
+    right: 15px;
+    bottom: 15px;
+    transition: background 0.5s;
+  }
+
+nav{
+    width: 100%;
+    height: 80px;
+    flex-shrink: 0;
+    background: #000; 
+    display: flex;
+    
+}
+nav h1{
+    color: white;
+    font-size: 15px;
+    margin-top: 34px;
+    margin-left: 5px; 
+}
+
+.link{
+    
+    display: flex;
+    gap: 45px;
+    padding-left: 300px;
+    font-family: Bree Serif;
+    font-size: 15px;
+    align-items: center;
+    
+}
+
+a{
+    color: white;
+}
+.logo{
+    width: 65px;
+    height: 80px;
+    flex-shrink: 0; 
+}
+.vinil{
+    font-family: Bree Serif;
+    width: 150px;
+    height: 42.89px; 
+    margin-top: 23px;
+}
+.sarlavha{
+    color: #0F254C;
+    font-family: Bree Serif;
+    font-size: 36px; 
+}
+.text{
+    color: #000;
+    font-family:  Bree Serif;
+    font-size: 20px; 
+}
+
+.contenier1{
+    width: 1401px;
+    height: 100px;
+    flex-shrink: 0; 
+    margin:80px 544px 359px 56px ;
+    display: flex;
+    gap: 40px;
+}
+.content{
+    width: 800px;
+    height: 415px;
+    flex-shrink: 0;
+}
+.video{
+    margin-top:60px;
+}
+.knopka{
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    background-color: #0F254C; 
+    color: #FFF;
+    font-family: Calisago;
+    font-size: 20px; 
+    border-radius: 8px;
+    margin-left: 47px;
+   margin-top: -80px;
+}
+.knopka span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .knopka span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .knopka:hover span {
+    padding-right: 25px;
+  }
+  
+  .knopka:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+.contenier2{
+    margin-top: 70px;
+    width: 100%;
+   
+}
+.sarlavha1{
+    color: #000;
+    text-align: center;
+    font-family: Jomolhari;
+    font-size: 45px;
+}
+.pictures{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    gap: 89px;
+}
+.box1{
+    
+    display: flex;
+    margin-left: 97px;
+    gap: 89px;
+}
+.knopka1{
+    width: 370px;
+    height: 56px;
+    background: #0F254C; 
+    color: #FFF;
+    text-align: center;
+    font-family: Junge;
+    font-size: 28px; 
+    border-radius: 8px;
+}
+.sarlavha2{
+    color: #0F0F0F;
+    text-align: center;
+    font-family: Junge;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 66px;
+}
+.pictures1{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    gap: 108px;
+}
+.box4{
+    display: flex;
+    flex-direction: column;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    gap: 108px;
+    margin-top: 66px;
+
+}
+.text0{
+    color: #000;
+    text-align: center;
+    font-family: Junge;
+    font-size: 25px;
+}
+.contenier3{
+    display: flex;
+    color: #000;
+    font-family: Junge;
+    font-size: 25px;
+    justify-content: center;
+    gap:108px;
+}
+.sarlavha3{
+    color: #000;
+    text-align: center;
+    font-family: Junge;
+    font-size: 45px;
+    margin-top: 100px;
+}
+.pictures2{
+    margin-top: 66px;
+    display: flex;
+    justify-content: center;
+    gap: 108px;
+    margin-bottom: 186px;
+}
+footer{
+    width: 100%;
+    height: 240px; 
+    background-color: #131D2E;
+    display: flex;
+    gap: 40px;
+
+}
+.pictures3{
+    width: 318px;height: 240px;
+   
+}
+.sarlavha4{
+    color: #FFF;
+    font-family: Julius Sans One;
+    font-size: 45px;
+}
+.box2{
+    display: flex; 
+    flex-direction: column;
+    font-family: Heebo;
+   
+}
+.link0{
+    color: #000;
+    text-align: center;
+    font-family: Junge;
+    font-size: 25px; 
+}
+.link01{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}

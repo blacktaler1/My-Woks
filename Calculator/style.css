@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 0;
+    font-family: "Poppins";
+}
+
+body{
+    background-color: #00695c;
+    color: #111;
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: absolute;
+    width: 330px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator{
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+    padding: 4px;
+    background-color: #f3f3f3;   
+}
+
+.calculator-screen{
+    flex-basis: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 35px 24px;
+    justify-content: flex-end;
+    background-color: #f3f3f3;
+}
+
+.calculator-screen-one, .calculator-screen-two{
+    background-color: transparent;
+    width:100%;
+    border:none;
+    text-align: right;
+    font-weight: 700;
+    font-size: 2.6rem;
+    padding-left: 30px;
+    color: #111;
+}
+
+.calculator-screen-one{
+    visibility: hidden;
+    width: 100%;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: #4b4b4b;
+}
+
+.calculator-m-buttons{
+    display: flex;
+}
+
+.calculator-m-button{
+    flex: 1;
+    border: none;
+    background-color: #f3f3f3;
+    padding: 15px;
+}
+
+.calculator-buttons{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2px;
+    background-color: #f3f3f3;
+}
+
+.calculator-button{
+    border:1px solid #ccc;
+    margin: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.1rem;
+    padding: 15px 0;
+    background-color: #f3f3f3;
+    border-radius: 5%;
+    color: #111;
+    transition: 0.25s;
+}
+
+.calculator-button:hover{
+    background-color: #e6e6e6;
+}
+
+.calculator-button:active{
+    background-color: white;
+}
+
+.calculator-number{
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 5%;
+}
+
+.calculator-equals{
+    background-color: #005a9e;
+    columns: #fff;
+}
+
+.calculator-equals:hover{
+    background-color: #48809f;
+}
+
+.calculator-backspace{
+    background: url(backspace.svg) center no-repeat;
+    background-color: #f9f9f9 !important;
+}
+.calculator-backspace:hover{
+    background-color: #ebebeb !important;
+}
+.calculator-backspace:active{
+    background-color: #fff !important;
+}

@@ -1,0 +1,22 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.game{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+#canvas{
+    border: 1px solid #080808;
+    background-color: #202f3c;
+    margin-top:100px;
+}
+#p1{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+}

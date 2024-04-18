@@ -1,0 +1,80 @@
+.btn{
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: $color-white;
+}
+
+.hero__btn{
+  color: $color-white;
+  font-size: 20px;
+  font-family: $fontPoppins;
+  font-weight: 400;
+  padding: 12px 29px;
+  background: linear-gradient(45deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-radius: 5px;
+  transition: color .1s ease-in-out;
+
+  &:hover{
+    background: linear-gradient(270deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  }
+}
+
+
+.btn__trp{
+  background: transparent;
+  border: 2px solid $color-2;
+  padding: 10px 27px;
+  transition: color .1s ease-in-out;
+
+
+  &:hover{
+    border: none;
+    padding: 12px 29px;
+  }
+}
+
+.btn__about{
+  color: $color-white;
+  font-size: 20px;
+  font-family: $fontPoppins;
+  font-weight: 400;
+  padding: 12px 29px;
+  background: linear-gradient(45deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-radius: 5px;
+  transition: color .1s ease-in-out;
+
+  &:hover{
+    background: linear-gradient(270deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  }
+}
+
+
+.row__btn{
+  color: $color-white;
+  font-size: 16px;
+  font-family: $fontPoppins;
+  font-weight: 500;
+  padding: 12px 14px;
+  background: linear-gradient(45deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-radius: 5px;
+  transition: color .1s ease-in-out;
+
+  &:hover{
+    background: linear-gradient(270deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  }
+}
+
+.btn__trpR{
+  background: transparent;
+  border: 2px solid $color-2;
+  padding: 10px 12px;
+  transition: color .1s ease-in-out;
+  margin-left: 10px;
+
+
+  &:hover{
+    border: none;
+    padding: 12px 14px;
+  }
+}

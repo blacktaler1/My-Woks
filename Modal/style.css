@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Varela', sans-serif;
+    height: 100vh;
+    background:linear-gradient(rgba( 0, 0, 0, 0.2),rgba( 0, 0, 0, 0.2)), url(./img/martin-katler-gWAFuadPY1g-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: inherit;
+}
+
+.hidden{
+    display: none;
+}
+.btn{
+    border: 0;
+    background: transparent;
+    font-family: inherit;
+    cursor: pointer;
+    font-size: 20px;
+}
+.modal-body,.modal-header{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+    background-color: #fff;
+}
+.close-btn{
+    text-align: right;
+}
+.show-btn{
+    background-color: #474b4f;
+    padding: 8px 12px;
+    border-radius: 8px;
+    transition: background 0.5s;
+}
+.show-btn:hover{
+    background-color: #3a3d40;
+}

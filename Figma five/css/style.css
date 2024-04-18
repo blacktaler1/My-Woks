@@ -1,0 +1,342 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Orbitron:wght@100;200;300;400;500;600;800;900&display=swap);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  background: linear-gradient(180deg, #010208 16.39%, #010206 20.51%, #040008 24.79%, #010101 30.46%, #010101 34.11%, #010101 36.21%, #010101 100%);
+  color: #ffffff;
+}
+
+.container {
+  padding: 0 130px;
+}
+
+.ml {
+  margin-left: 10px;
+}
+
+.btn {
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  color: #ffffff;
+}
+
+.hero__btn {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 12px 29px;
+  background: linear-gradient(45deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-radius: 5px;
+  transition: color 0.1s ease-in-out;
+}
+.hero__btn:hover {
+  background: linear-gradient(270deg, #D10ED1 12.04%, #10A3DA 81.84%);
+}
+
+.btn__trp {
+  background: transparent;
+  border: 2px solid #F86CF8;
+  padding: 10px 27px;
+  transition: color 0.1s ease-in-out;
+}
+.btn__trp:hover {
+  border: none;
+  padding: 12px 29px;
+}
+
+.btn__about {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  padding: 12px 29px;
+  background: linear-gradient(45deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-radius: 5px;
+  transition: color 0.1s ease-in-out;
+}
+.btn__about:hover {
+  background: linear-gradient(270deg, #D10ED1 12.04%, #10A3DA 81.84%);
+}
+
+.row__btn {
+  color: #ffffff;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  padding: 12px 14px;
+  background: linear-gradient(45deg, #D10ED1 12.04%, #10A3DA 81.84%);
+  border-radius: 5px;
+  transition: color 0.1s ease-in-out;
+}
+.row__btn:hover {
+  background: linear-gradient(270deg, #D10ED1 12.04%, #10A3DA 81.84%);
+}
+
+.btn__trpR {
+  background: transparent;
+  border: 2px solid #F86CF8;
+  padding: 10px 12px;
+  transition: color 0.1s ease-in-out;
+  margin-left: 10px;
+}
+.btn__trpR:hover {
+  border: none;
+  padding: 12px 14px;
+}
+
+.row {
+  display: flex;
+  align-content: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.row .col-1-of-3 {
+  width: calc((100% - 50px) / 3);
+}
+
+[class^=col-] {
+  margin-bottom: 36px;
+}
+
+.col-1-of-3 {
+  width: 374px;
+  height: 434px;
+  background: #090823;
+  border-radius: 0px 15px 0px 0px;
+  padding: 20px;
+}
+
+.row__img {
+  width: 355px;
+  height: 227px;
+}
+
+.row__title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 14px;
+}
+
+.row__text {
+  width: 336px;
+  height: 42px;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 8px 0px 12px 0px;
+}
+
+.fixed {
+  width: 100%;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav {
+  margin-top: 20px;
+}
+
+.logo {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  font-family: "Orbitron", sans-serif;
+}
+
+.nav__list {
+  display: flex;
+  align-items: center;
+}
+
+.nav__link {
+  color: #ffffff;
+  font-size: 16px;
+  margin: 0 30px;
+}
+.nav__link:hover {
+  background-image: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero {
+  width: 100%;
+  min-height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 80px;
+}
+
+.img__dc {
+  position: absolute;
+  top: 250px;
+  right: 660px;
+}
+
+.hero__title {
+  width: 80%;
+  font-size: 45px;
+  font-weight: 600;
+  font-family: "Orbitron", sans-serif;
+}
+.hero__title .meta {
+  font-size: 55px;
+  font-weight: 700;
+  background-image: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.hero__text {
+  width: 70%;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  margin: 40px 0;
+}
+
+.hero__statistics {
+  display: flex;
+  margin-top: 40px;
+  gap: 20px;
+}
+
+.hero__statistic {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+  font-family: "Orbitron", sans-serif;
+}
+
+.stc {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  margin-top: 15px;
+}
+
+.about {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.about__text {
+  width: 524px;
+  height: 90px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Poppins", sans-serif;
+  line-height: 30px;
+  margin: 40px 0;
+}
+
+.about__title {
+  color: #ffffff;
+  font-family: "Orbitron", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+}
+.about__title .titleX {
+  background-image: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.mverse__title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 120px 0 20px 0;
+}
+
+.mv__title {
+  background-image: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.mverse__text {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.activity__title {
+  font-family: "Orbitron", sans-serif;
+  font-size: 35px;
+  font-weight: 600;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin: 120px 0 20px 0;
+}
+
+.act {
+  background-image: linear-gradient(97.16deg, #F86CF8 12.04%, #64CEF5 81.84%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.activity__texts {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.act__video {
+  width: 100%;
+  height: 650px;
+  border-radius: 0px, 0px, 25px, 25px;
+  position: relative;
+  margin-bottom: 224px;
+}
+
+.act__img {
+  padding-left: 130px;
+  position: absolute;
+}
+
+.act__img2 {
+  margin-right: auto;
+  position: absolute;
+  right: 0;
+}
+
+.footer {
+  width: 100%;
+  height: 450px;
+  background: #090823;
+}

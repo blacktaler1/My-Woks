@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  background-color: #f5f7fa;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  margin: 30px 105px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f7fa;
+}
+.box {
+  display: flex;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  gap: 50px;
+  color: #18191f;
+  margin-top: 30px;
+}
+h1 {
+  font-size: 64px;
+}
+.knopka {
+  display: flex;
+  gap: 22px;
+  align-items: center;
+  padding: 22px 120px;
+}
+main {
+  font-size: 50px;
+  color: #4d4d4d;
+  display: flex;
+
+  align-items: center;
+}
+.from {
+  color: green;
+}
+img {
+  width: 391px;
+  height: 407px;
+}
+p {
+  color: green;
+}
+
+.box2 {
+  display: flex;
+  gap: 104px;
+  padding: 96px 144px;
+}
+.btn {
+  border-radius: 10px;
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+
+  background-color: #4caf4f;
+}
+main {
+  padding: 96px 144px;
+  align-items: center;
+  gap: 104px;
+}
+h1 {
+  font-family: Inter;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 76px;
+}
+.text9 {
+  display: flex;
+  gap: 104px;
+}
+.text7 {
+  font-size: 16px;
+  color: #717171;
+}
+.text8 {
+  margin-top: 32px;
+  display: flex;
+  padding: 14px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  color: black;
+  border-radius: 4px;
+  background-color: #4caf4f;
+  border: none;
+}
+img{
+    margin-left: 104px;
+}
+.rang{
+   display: flex;
+   align-items: center;
+  }
+
+.sarlavha{
+  font-family: Inter;
+  text-align: center;
+  font-style: normal;
+}
+.text  {
+  
+  color: #4D4D4D;
+  font-size: 36px;
+}
+.text2{
+   color: #717171;
+   padding-top: 8px;
+}
+.rasm{
+  display: flex;
+  height: 98px;
+  justify-content: space-between;
+  align-items: center;
+  align-self: stretch; 
+  padding: 0px 144px; 
+  margin-top:20px ;
+}
+.text3{
+  font-family: Inter;
+  font-size: 36px;
+  font-style: normal;
+ color: #4D4D4D;
+  text-align: center;
+
+}
+.text4{
+  color: #717171;
+  text-align: center;
+  font-size: 16px;
+  padding-top: 8px;
+}
+.icon{
+  display: flex;
+
+
+  padding: 26px 150px;
+  padding-left:150px ;
+  justify-content: space-between;
+  align-items: center; 
+
+}
+.text5{
+  display: flex;
+  color: #4D4D4D;
+  font-size: 28px; 
+  padding: 0px 150px;
+  padding-left:150px ;
+  justify-content: space-between;
+  align-items: center; 
+}
+.text6{
+  display: flex;
+  color:#717171;
+  font-family: Inter;
+  font-size: 14px;
+  justify-content: space-between;
+  align-items: center; 
+}
+.soz{
+  width: 500px;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 0px 150px;
+  
+}

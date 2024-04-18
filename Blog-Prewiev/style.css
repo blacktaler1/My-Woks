@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Vesper+Libre:wght@400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F4D04E;
+}
+.content{
+    width: 384px;
+    height: 521px;
+    border-radius: 3%;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px;
+}
+.content:hover{
+    box-sizing: border-box;
+    box-shadow: black 15px 15px 1px 1px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;  
+}
+
+.photo{
+    margin: 20px 20px;
+    border-radius: 20px;
+    
+}
+
+.btn-learn{
+    background-color: #F4D04E;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #121212;
+}
+.btn-learn, p, a, img{
+    margin-left: 20px;
+    margin-top: 15px;
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+}
+.cursor{
+    font-size: 25px;
+    color: #121212;
+    font-family: "Vesper Libre", bold;
+    font-weight: 400;
+    cursor: pointer;
+}
+.cursor:hover{
+    color: #F4D04E;
+}
+.text{
+    color: #8F8080;
+}
+.photo-content{
+    display: flex;
+}
+.photo1{
+    width: 32px;
+    height: 32px;
+}
+.word-name{
+    margin-top: 20px;
+}
+.footer{
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .main {
+        border-radius: 20px; 
+        margin-top: 200px;
+        margin-left: 90px;
+        width: 200px;
+        height: 250px;
+    }
+    .cursor:active{
+        color: #F4D04E;
+    }
+    .footer{
+        display: none;
+    }
+}
